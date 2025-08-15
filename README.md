@@ -1,1 +1,4 @@
 # Sales-Forecasting-using-Machine-Learning
+Developed an end-to-end sales prediction pipeline to forecast Item_Outlet_Sales for a retail dataset. Performed extensive data cleaning (handling missing values with mean/mode imputation, replacing zero values, consolidating categorical entries), feature engineering (creating New_Item_Type, Outlet_Years, and encoding categorical features), and exploratory data analysis (distribution plots, count plots, and correlation heatmaps) to identify trends and relationships.
+
+Implemented multiple regression algorithms — Linear Regression, Ridge, Lasso, Decision Tree, Random Forest, Extra Trees, LightGBM, and XGBoost — and evaluated them using cross-validation, MSE, and R² scores. Conducted hyperparameter tuning via RandomizedSearchCV to optimize Random Forest, LightGBM, and XGBoost models. Visualized feature importances and residual distributions to assess model performance.
